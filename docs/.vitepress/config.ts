@@ -59,4 +59,15 @@ export default defineConfig({
       ],
     },
   },
+  head: [
+    [
+      'script',
+      {
+        src: 'https://media.bitterbrains.com/main.js?from=ARLO&type=BANNER_TYPE',
+        // @ts-expect-error: vitepress bug
+        async: true,
+        type: 'text/javascript',
+      },
+    ],
+  ]
 })
