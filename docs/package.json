@@ -13,6 +13,6 @@
     "build": "npm run update && vitepress build .",
     "dev": "npm run update && vitepress dev . --host",
     "serve": "vitepress serve . --port 5001",
-    "update": "tsx ./scripts/update.ts"
+    "update": "tsx ./scripts/update.ts --import"
   }
 }
